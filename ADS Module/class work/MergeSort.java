@@ -1,6 +1,6 @@
 class MergeSort{
 	static void mergeSort(int arr[],int si,int ei){
-		if(si<ei){
+		while(si<ei){
 			int mid =si+(ei-si)/2;
 			mergeSort(arr,si,mid);
 			mergeSort(arr,mid+1,ei);
