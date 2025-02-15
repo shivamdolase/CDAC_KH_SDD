@@ -32,7 +32,7 @@ class Queue{
 	int  dequeue()
 	{
 		if(isEmpty()){
-			System.out.println("Queue is full !");
+			System.out.println("Queue is Empty !");
                         return -1;
 		}
 		else{
