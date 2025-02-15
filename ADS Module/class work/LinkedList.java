@@ -25,7 +25,7 @@ class LinkedList{
 		}
 		Node newN=new Node(data);
 		newN.next=temp.next;
-		temp.next=newN.next;
+		temp.next=newN;
 	}
 	static void insertAtEnd(int data){
 		Node newN=new Node(data);
